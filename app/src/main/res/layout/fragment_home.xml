@@ -28,25 +28,22 @@
             android:layout_marginBottom="8dp"
             android:background="@android:color/darker_gray" />
 
-        <!-- EditText fields for source and destination -->
-        <EditText
+        <AutoCompleteTextView
             android:id="@+id/sourceEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Where from?"
             android:padding="16dp"
-            android:inputType="text" />
-
-        <EditText
+            android:inputType="text"
+            />
+        <AutoCompleteTextView
             android:id="@+id/destinationEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Where to?"
             android:padding="16dp"
-            android:inputType="text" />
-
-        <!-- Additional UI elements or controls can be added here -->
-
+            android:inputType="text"
+            />
     </LinearLayout>
 
 </RelativeLayout>
